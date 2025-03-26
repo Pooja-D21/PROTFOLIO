@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #ff6f61;
+    text-align: center;
+}
+
+.contact, .skills, .experience, .contact-form {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ff6f61;
+    border-radius: 5px;
+    background: #fff5f5;
+}
+
+button {
+    padding: 10px;
+    background: linear-gradient(to right, #ff6f61, #de425b);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: linear-gradient(to right, #de425b, #ff6f61);
+    transform: scale(1.05);
+}
+
+.contact, .skills, .experience {
+    background: #fff5f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
